@@ -1,0 +1,25 @@
+{
+    "name": "votong/websocket",
+    "description": "Laravel Websocket based on Ratchet, support pub/sub feature.",
+    "authors": [
+        {
+            "name": "Vo Tong",
+            "email": "votong175@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "cboden/Ratchet": "0.3.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/VoTong/WebSocket/helper",
+            "src/VoTong/WebSocket/model",
+            "src/VoTong/WebSocket/command"
+        ],
+        "psr-0": {
+            "VoTong\\WebSocket\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
